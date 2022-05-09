@@ -1,0 +1,13 @@
+[debug] [2022-04-20T00:02:22.439Z] ----------------------------------------------------------------------
+[debug] [2022-04-20T00:02:22.442Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\matia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-20T00:02:22.443Z] CLI Version:   10.7.0
+[debug] [2022-04-20T00:02:22.444Z] Platform:      win32
+[debug] [2022-04-20T00:02:22.444Z] Node Version:  v16.14.2
+[debug] [2022-04-20T00:02:22.446Z] Time:          Tue Apr 19 2022 21:02:22 GMT-0300 (hora estándar de Argentina)
+[debug] [2022-04-20T00:02:22.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-20T00:02:22.584Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-20T00:02:22.585Z] > authorizing via signed-in user (rivaderomatias888@gmail.com)
+[debug] [2022-04-20T00:02:22.585Z] [iam] checking project calc-app-435435499 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-20T00:02:22.589Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/calc-app-435435499:testIamPermissions [none]
+[debug] [2022-04-20T00:02:22.589Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/calc-app-435435499:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
